@@ -116,3 +116,25 @@ a {
 
 /* container 3 styling */
 
+.container-three {
+    background-color: #7EE081;
+    color: #313B72;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px 80px 300px;
+}
+
+.quote {
+    font-size: 48px;
+    font-style: italic;
+    padding: 0px 30px 0px 30px;
+    margin: 0px;
+}
+
+.author-quote {
+    font-size: 24px;
+    font-weight: 600;
+    align-self: flex-end;
+}
