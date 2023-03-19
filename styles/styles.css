@@ -1,1 +1,83 @@
 /* Willy Styles */
+
+
+body {
+    background-color: #462255;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px 0px 32px;
+    flex: 1 1 0;
+    margin: 0;
+}
+
+/* styles for the first container */
+
+.container-one {
+    background-color: #313B72;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    flex: 1 1 0;
+}
+
+.container-header-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 300px 16px 300px;
+    flex: 1 1 0;
+}
+
+.header-logo {
+    color: #C3F3C0;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.container-header-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    color: #C3F3C0;
+    text-decoration: none;
+}
+
+.container-content-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 120px;
+    padding: 100px 300px 16px 300px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.header-content-title {
+    color: #C3F3C0;
+    font-size: 56px;
+}
+
+.header-content-para {
+    color: #C3F3C0;
+    max-width: 300px;
+}
+
+.header-btn {
+    background-color: #62A87C;
+    border-radius: 10%;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
